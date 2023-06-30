@@ -6,3 +6,28 @@
 
 
 /* General */
+
+
+/* Navbar */
+
+nav .navbar-collapse {
+    flex-grow: 0;
+}
+
+/* End of Navbar */
+
+
+/* Home */
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.home .icons .icon-container {
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 1.9rem;
+    width: 1.9rem;
+}
