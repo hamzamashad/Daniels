@@ -31,3 +31,16 @@ nav .navbar-collapse {
     height: 1.9rem;
     width: 1.9rem;
 }
+
+/* End of Home section */
+
+
+/* About */
+
+.about .skills .progress {
+    height: 1.7rem;
+}
+
+.about .skills p {
+    margin: 0;
+}
