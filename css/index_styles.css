@@ -11,6 +11,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+nav.navbar {
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+
+section {
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+
 
 /* Navbar */
 
