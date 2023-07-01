@@ -91,9 +91,15 @@ nav .navbar-collapse {
     background-color: #f7f7f7;
 }
 
-.services .icon-container {
+.services .item .icon-container {
     background-color: rgb(244, 244, 244);
     height: 4.5rem;
     width: 4.5rem;
     font-size: 1.7rem;
+    transition: 0.5s 0s;
+}
+
+.services .item:hover .icon-container {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
