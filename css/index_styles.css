@@ -103,3 +103,67 @@ nav .navbar-collapse {
     background-color: rgb(0, 0, 0);
     color: white;
 }
+
+/* End of Services Sections */
+
+
+/* Portfollio */
+
+.portfolio .nav-pills .nav-item button {
+    color: black;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+}
+
+.portfolio .nav-pills .nav-item button.active {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.portfolio .tab-content .inner .overlay {
+    top: 5;
+    bottom: 5;
+    right: 5;
+    left: 5;
+    background-color: rgba(255, 255, 255, 0.9);
+    translate: 0 10px;
+    opacity: 0;
+    transition: 0.3s 0.2s;
+}
+
+.portfolio .tab-content .inner:hover .overlay {
+    translate: 0;
+    opacity: 1;
+}
+
+.portfolio .tab-content .inner .overlay .title {
+    transition: 0.3s 0.2s;
+    translate: 0 -50px;
+}
+
+.portfolio .tab-content .inner:hover .overlay .title {
+    translate: 0 0;
+}
+
+.portfolio .tab-content .inner .overlay .icon-container {
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    font-size: 0.8rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    transition: 0.3s 0.2s;
+    translate: 0 50px;
+    cursor: pointer;
+}
+
+.portfolio .tab-content .inner .overlay .icon-container:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s 0s;
+}
+
+.portfolio .tab-content .inner:hover .overlay .icon-container {
+    translate: 0 0;
+}
