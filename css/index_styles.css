@@ -11,15 +11,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav.navbar {
-    padding-left: 11rem;
-    padding-right: 11rem;
-}
-
-section {
-    padding-left: 11rem;
-    padding-right: 11rem;
-}
+/* End of General */
 
 
 /* Navbar */
@@ -88,4 +80,20 @@ nav .navbar-collapse {
 .about .reach .btn-white:hover {
     background-color: black;
     color: white;
+}
+
+/* End of About Section */
+
+
+/* Services */
+
+.services {
+    background-color: #f7f7f7;
+}
+
+.services .icon-container {
+    background-color: rgb(244, 244, 244);
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 1.7rem;
 }
