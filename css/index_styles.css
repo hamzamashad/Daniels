@@ -41,6 +41,15 @@ nav .navbar-collapse {
 
 /* About */
 
+.about h3 {
+    font-size: 1rem;
+    color: #748182;
+}
+
+.about .info {
+    color: #748182;
+}
+
 .about .skills .progress {
     height: 1.7rem;
 }
