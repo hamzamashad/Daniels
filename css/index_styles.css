@@ -26,7 +26,7 @@ nav .navbar-collapse {
 /* Home */
 
 .home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -172,26 +172,26 @@ nav .navbar-collapse {
 /* End of Portfolio Section */
 
 
-/* Works */
+/* Clients */
 
-.works {
+.clients {
     background-color: #f7f7f7;
 }
 
-.works .slider .img-container {
+.clients .slider .img-container {
     height: 5rem;
     width: 5rem;
 }
 
-.works .slider .carousel-indicators button {
+.clients .slider .carousel-indicators button {
     background-color: #d6d6d6;
 }
 
-.works .slider .carousel-indicators button.active {
+.clients .slider .carousel-indicators button.active {
     background-color: #343434;
 }
 
-/* End of Works Section */
+/* End of Clients Section */
 
 
 /* Achievements */
