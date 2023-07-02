@@ -213,21 +213,31 @@ nav .navbar-collapse {
     color: white;
 }
 
-.team .inner .card .overlay {
+.team .inner .card .img-container .overlay {
     top: 5;
     bottom: 5;
     right: 5;
     left: 5;
     background-color: rgba(255, 255, 255, 0.9);
-    transition: 0.3s 0s;
+    transition: 0.5s 0s;
+    scale: 0.5;
+    opacity: 0;
+    rotate: y 180deg;
+    cursor: pointer;
 }
 
 .team .inner .card .img-container img {
-    transition: 0.3s 0s;
+    transition: 0.5s 0s;
 }
 
 .team .inner .card .img-container:hover img {
     scale: 1.2;
+}
+
+.team .inner .card .img-container:hover .overlay {
+    rotate: y 360deg;
+    opacity: 1;
+    scale: 1;
 }
 
 .team .inner .card .overlay .icon-container {
