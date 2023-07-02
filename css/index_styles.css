@@ -253,3 +253,41 @@ nav .navbar-collapse {
     background-color: white;
     color: black;
 }
+
+/* End of Team Section */
+
+
+/* Contact */
+
+.contact .contact-info .inner .icon-container {
+    background-color: #f7f7f7;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.7rem;
+    transition: 0.3s 0s;
+}
+
+.contact .contact-info .inner:hover .icon-container {
+    background-color: black;
+    color: white;
+}
+
+.contact form input, .contact form textarea {
+    background-color: #f7f7f7;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form button {
+    background-color: black;
+    border-color: black;
+    padding-inline: 2rem;
+}
+
+.contact form button:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
