@@ -189,3 +189,12 @@ nav .navbar-collapse {
 .works .slider .carousel-indicators button.active {
     background-color: #343434;
 }
+
+/* End of Works Section */
+
+
+/* Achievements */
+
+.achievements i {
+    font-size: 1.7rem;
+}
