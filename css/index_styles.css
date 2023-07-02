@@ -33,7 +33,7 @@ nav .navbar-collapse {
 }
 
 .home .icons .icon-container {
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     height: 1.9rem;
     width: 1.9rem;
 }
@@ -197,4 +197,48 @@ nav .navbar-collapse {
 
 .achievements i {
     font-size: 1.7rem;
+}
+
+/* End of Achievements Section */
+
+
+/* Team */
+
+.team {
+    background-color: #f7f7f7;
+}
+
+.team .inner .card-body {
+    background-color: #5B5B5B;
+    color: white;
+}
+
+.team .inner .card .overlay {
+    top: 5;
+    bottom: 5;
+    right: 5;
+    left: 5;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.3s 0s;
+}
+
+.team .inner .card .img-container img {
+    transition: 0.3s 0s;
+}
+
+.team .inner .card .img-container:hover img {
+    scale: 1.2;
+}
+
+.team .inner .card .overlay .icon-container {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.team .inner .card .overlay .icon-container:hover {
+    background-color: white;
+    color: black;
 }
